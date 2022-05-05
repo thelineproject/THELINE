@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "112026775227",
+    "project_id": "theline-e8b86",
+    "storage_bucket": "theline-e8b86.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112026775227:android:27969af604b387b81c839e",
+        "android_client_info": {
+          "package_name": "com.theline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112026775227-br1joec6lnlu0afpijbj17ofmampmo6v.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.theline",
+            "certificate_hash": "094d935da625bff4294b662dfebd12470b334b57"
+          }
+        },
+        {
+          "client_id": "112026775227-9jgmirrsc5pl61h5ualv33t74ipq5m6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAfHhwtL_g_0shNIk3BvCMM5Op4LKLQ99E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112026775227-9jgmirrsc5pl61h5ualv33t74ipq5m6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
