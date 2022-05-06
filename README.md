@@ -1,24 +1,27 @@
-# THELINE
-🚀 How to use
-Install packages with yarn or npm install.
-If you have native iOS code run npx pod-install
-Run yarn start to start the bundler.
-Open the project in a React runtime to try it:
-iOS: Client iOS
-Android: Client Android
-Web: Any web browser
+# Setting up the development environment
 
+This page will help you install and build your first React Native app. If you are new to mobile development, the easiest way to get started is with Expo CLI. Expo is a set of tools built around React Native. If you are already familiar with mobile development, you may want to use React Native CLI. It requires Xcode or Android Studio to get started. If you already have one of these tools installed, you should be able to get up and running within a few minutes. If they are not installed, you should expect to spend about an hour installing and configuring them.
 
+# The Step to start to work with React native
+Mac
+install nodejs (e.g. https://nodejs.org)
+install git (e.g. https://sourceforge.net/projects/git-osx-installer/)
+git clone https://github.com/thelineproject/THELINE
+cd
+npm install
+Windows
+install nodejs (e.g. https://nodejs.org)
+install git and git-bash (e.g. https://git-scm.com/download/win)
+from: git-bash run the following
+git clone https://github.com/thelineproject/THELINE
 
-Adding Native Code
-This project can be run from a web browser or the Expo client app. You may find that you want to add more native code later on. You can do this by ejecting the project and rebuilding it yourself.
+from: cmd run the following
+cd
+npm install
+• Expo CLI Quickstart Assuming that you have Node 14 LTS or greater installed, you can use npm to install the Expo CLI command line utility: • npm npm install -g expo-cli
 
-Run yarn eject to create the native projects.
-You can still run your project in the web browser or Expo client, you just won't be able to access any new native modules you add.
-Publishing
-Deploy the native app to the App store and Play store using this guide: Deployment.
-Deploy the website using this guide: Web deployment.
-📝 Notes
-Learn more about Universal React.
-See what API and components are available in the React runtimes.
-Find out more about developing apps and websites: Guides.
+npm start # you can also use: expo start
+
+This will start a development server for you.
+
+Running your React Native application Install the Expo client app on your iOS or Android phone and connect to the same wireless network as your computer. On Android, use the Expo app to scan the QR code from your terminal to open your project. On iOS, use the built-in QR Modifying your app Now that you have successfully run the app, let's modify it. Open App.js in your text editor of choice and edit some lines. The application should reload automatically once you save your changes. That's it! Congratulations! You've successfully run and modified your first React Native app.
