@@ -4,10 +4,9 @@ This page will help you install and build your first React Native app. If you ar
 
 # The Step to start to work with React native
 - Mac
+
 install nodejs (e.g. https://nodejs.org)
-
 install git (e.g. https://sourceforge.net/projects/git-osx-installer/)
-
 git clone https://github.com/thelineproject/THELINE
 
 cd
@@ -15,14 +14,24 @@ npm install
 
 
 - Windows
+
 install nodejs (e.g. https://nodejs.org)
+
 install git and git-bash (e.g. https://git-scm.com/download/win)
+
 from: git-bash run the following
+
 git clone https://github.com/thelineproject/THELINE
 
+
 from: cmd run the following
+
 cd
+
 npm install
+
+
+
 • Expo CLI Quickstart Assuming that you have Node 14 LTS or greater installed, you can use npm to install the Expo CLI command line utility: • npm npm install -g expo-cli
 
 npm start # you can also use: expo start
