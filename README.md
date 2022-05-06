@@ -5,8 +5,11 @@ This page will help you install and build your first React Native app. If you ar
 # The Step to start to work with React native
 - Mac
 install nodejs (e.g. https://nodejs.org)
+
 install git (e.g. https://sourceforge.net/projects/git-osx-installer/)
+
 git clone https://github.com/thelineproject/THELINE
+
 cd
 npm install
 
