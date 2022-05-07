@@ -24,11 +24,15 @@ export default function LocationToDestination({ selectedlocation, setselectedloc
   }, [secondDrp])
 
   const func = () => {
+    
+    // getting departure index
     var firstDrpInd = LocationCopy.indexOf(firstDrp);
+    // getting destination index 
     var secondDrpInd = LocationCopy.indexOf(secondDrp);
     var makeStop = [];
-
+    // checking if rout is in reverse 
     if (firstDrpInd > secondDrpInd) {
+    // condition for nearest station 
       if ((secondDrpInd === 3 || firstDrpInd === 7) && (firstDrpInd === 8 || firstDrpInd === 9 || firstDrpInd === 10)) {
         for (let index = 0; index < LocationCopy.length; index++) {
           const element = LocationCopy[index];
@@ -42,8 +46,8 @@ export default function LocationToDestination({ selectedlocation, setselectedloc
         }
       }
     }
-
     else {
+    // condition for nearest station 
       if ((firstDrpInd === 3 || firstDrpInd === 7) && (secondDrpInd === 8 || secondDrpInd === 9 || secondDrpInd === 10)) {
         makeStop = LocationCopy.slice(7, secondDrpInd + 1)
       }
@@ -51,8 +55,6 @@ export default function LocationToDestination({ selectedlocation, setselectedloc
         makeStop = LocationCopy.slice(firstDrpInd, secondDrpInd + 1)
       }
     }
-    // console.log(firstDrpInd, secondDrpInd, "secondDrp", makeStop, "IndsecondDrpInd", firstDrp, secondDrp)
-    // console.log(makeStop, "IndsecondDrpInd",)
     setstops(makeStop)
   }
 
